@@ -1,0 +1,31 @@
+Github/explore
+https://github.com/github/gitignore
+T Shorcut
+kcd.im/what-oss ->CONTRIBUTING.md
+How to Folk
+*Click on Folk button
+*Cloning the repo in PC
+**git remote add upstream originalSshUrlForCloning
+**git fetch upstream
+**git branch --set-upstream-to=upstream/master master
+**now our branch master is tracking the upstream/master
+
+**create a branch
+*check contribution.md
+*git checkout -b pr/padLeft
+*npm install
+*npm t && npm run build
+*npm run test:watch
+*Make a change
+*git add . && git commit -m "sss"
+
+Pull Request
+                branch
+git push origin pr/padLeft
+git push --set-upstream origin pr/padLeft or -u origin pr/padLeft
+[Pull Request Button]
+
+git commit -m "I need help with the commit message" --no-verify
+git push
+
+git rebase upstram/master
