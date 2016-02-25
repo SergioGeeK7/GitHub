@@ -1,5 +1,7 @@
 Github/explore
-https://github.com/github/gitignore
+https://github.com/github/gitignore 
+https://guides.github.com/activities/hello-world/
+
 T Shorcut
 kcd.im/what-oss ->CONTRIBUTING.md
 How to Folk
