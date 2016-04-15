@@ -1,25 +1,25 @@
 #Comandos mas usados
-$ git commit --amend --no-edit # Dejamos el mismo mensaje
-$ git commit --amend -m "Nuevo mensaje para el cambio"
-$ git checkout -- README.md -//> 
-$ git add --all -//> to staged files,prepare files
-$ git reset HEAD README.md -//>  unstage the file after add
-$ git checkout -b primera-rama
-$ git checkout master -//> cambiarme de rama
-$ git checkout Capitulo-X -//>tag
-$ git merge segunda-rama -//> make sure you where are you . git checkout master
-$ git branch -d segunda-rama -//> ELIMINAR RAMA or -D
-$ git branch -v -//> lista todas las branch existentes
-$ git push origin duplicada-de-arreglos-varios:arreglos-varios -//> rare
-$ git log -//> listar commits author y fecha
-$ git log -p -1 -//> listar lineas de codigo
-$ git remote -v -//> listar los repos
-$ git checkout --track origin/arreglos-varios -//> seguir una rama diferente a master
-$ git push origin :arreglos-varios -//> eliminar una rama
-$ git remote add servidor-de-pruebas https://github.com/albertogg/tutorial-git.git -//> añadir un repo
-$ git push origin master -//> [repo] [rama]
-$ git push origin master --tags -//> subir tags
-$ git tag -//> listar versiones
-$ git tag [name] -//> crear tag
-
+$ git commit --amend --no-edit # Dejamos el mismo mensaje <br />
+$ git commit --amend -m "Nuevo mensaje para el cambio" <br />
+$ git checkout -- README.md -//>  <br />
+$ git add --all -//> to staged files,prepare files <br />
+$ git reset HEAD README.md -//>  unstage the file after add <br />
+$ git checkout -b primera-rama <br />
+$ git checkout master -//> cambiarme de rama <br />
+$ git checkout Capitulo-X -//>tag <br />
+$ git merge segunda-rama -//> make sure you where are you . git checkout master <br />
+$ git branch -d segunda-rama -//> ELIMINAR RAMA or -D <br />
+$ git branch -v -//> lista todas las branch existentes <br />
+$ git push origin duplicada-de-arreglos-varios:arreglos-varios -//> rare <br />
+$ git log -//> listar commits author y fecha <br />
+$ git log -p -1 -//> listar lineas de codigo <br />
+$ git remote -v -//> listar los repos <br />
+$ git checkout --track origin/arreglos-varios -//> seguir una rama diferente a master <br />
+$ git push origin :arreglos-varios -//> eliminar una rama <br />
+$ git remote add servidor-de-pruebas https://github.com/albertogg/tutorial-git.git -//> añadir un repo <br />
+$ git push origin master -//> [repo] [rama] <br />
+$ git push origin master --tags -//> subir tags <br />
+$ git tag -//> listar versiones <br />
+$ git tag [name] -//> crear tag <br />
+ <br />
 # http://codehero.co/git-desde-cero-manejo-de-ramas-remotas/  ->  7
