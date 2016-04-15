@@ -22,4 +22,4 @@ $ git push origin master --tags -//> subir tags <br />
 $ git tag -//> listar versiones <br />
 $ git tag [name] -//> crear tag <br />
  <br />
-# http://codehero.co/git-desde-cero-manejo-de-ramas-remotas/  ->  7
+$ http://codehero.co/git-desde-cero-manejo-de-ramas-remotas/  ->  7
