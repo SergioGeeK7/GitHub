@@ -1,5 +1,3 @@
-GPL V2
-
 #Comandos mas usados
 $ git commit --amend --no-edit # Dejamos el mismo mensaje
 $ git commit --amend -m "Nuevo mensaje para el cambio"
@@ -24,5 +22,4 @@ $ git push origin master --tags -//> subir tags
 $ git tag -//> listar versiones
 $ git tag [name] -//> crear tag
 
-#Seguir
-http://codehero.co/git-desde-cero-manejo-de-ramas-remotas/   -> 7
+# http://codehero.co/git-desde-cero-manejo-de-ramas-remotas/  ->  7
