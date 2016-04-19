@@ -9,6 +9,7 @@ $ git checkout master -//> cambiarme de rama <br />
 $ git checkout Capitulo-X -//>tag <br />
 $ git merge segunda-rama -//> make sure you where are you . git checkout master <br />
 $ git branch -d segunda-rama -//> ELIMINAR RAMA or -D <br />
+$ git checkout --track origin/serverfix
 $ git checkout -b sf origin/serverfix -//>rama local sf va a llevar (push) y traer (pull) hacia o desde origin/serverfix.
 $ git branch -v -//> lista todas las branch existentes <br />
 $ git push origin duplicada-de-arreglos-varios:arreglos-varios -//> rare <br />
