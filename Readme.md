@@ -1,4 +1,6 @@
 #Comandos mas usados
+
+$ git reset --hard -//> before checkout use this to ignore changes
 $ git commit --amend --no-edit # Dejamos el mismo mensaje <br />
 $ git commit --amend -m "Nuevo mensaje para el cambio" <br />
 $ git checkout -- README.md -//>  <br />
