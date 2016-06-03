@@ -27,5 +27,15 @@ $ git push origin master -//> [repo] [rama] <br />
 $ git push origin master --tags -//> subir tags <br />
 $ git tag -//> listar versiones <br />
 $ git tag [name] -//> crear tag <br />
+$git commit -m "Mensaje corregido" --amend  --//> you forgot to add a modification to a file <br />
+$git remote -v  <br />
+$git reset HEAD jedi.js  <br />
+$git checkout HEAD jedi.js <br />
+$git reset --//> hard <br />
+$git stash --//> save <br />
+$git stash apply -->rest <br />
+$git diff 0da94be 59ff30c <br />
+
+
  <br />
 $ http://codehero.co/git-desde-cero-manejo-de-ramas-remotas/  ->  7
