@@ -35,6 +35,12 @@ $git reset --//> hard <br />
 $git stash --//> save <br />
 $git stash apply -->rest <br />
 $git diff 0da94be 59ff30c <br />
+$git stash -> save without commit <br>
+$git stach pop -> restore <br>
+$git reset --soft HEAD^1 -> leave the changes made <br>
+$git reset HEAD file -> detach add <br>
+
+
 
 
  <br />
