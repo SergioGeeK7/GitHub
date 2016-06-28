@@ -40,6 +40,9 @@ $git stach pop -> restore <br>
 $git reset --soft HEAD^1 -> leave the changes made <br>
 $git reset HEAD file -> detach add <br>
 
+$editor path/to/file
+$git-add path/to/file
+$git-commit -v --amend
 
 
 
