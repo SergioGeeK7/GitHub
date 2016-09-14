@@ -39,6 +39,8 @@ $git stash -> save without commit <br>
 $git stach pop -> restore <br>
 $git reset --soft HEAD^1 -> leave the changes made <br>
 $git reset HEAD file -> detach add <br>
+$git clean -f -d -n -> remove untracked files after git checkout HEAD
+
 
 $editor path/to/file
 $git-add path/to/file
