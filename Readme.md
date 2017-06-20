@@ -40,7 +40,8 @@ $git stach pop -> restore <br>
 $git reset --soft HEAD^1 -> leave the changes made <br>
 $git reset HEAD file -> detach add <br>
 $git clean -f -d -n -> remove untracked files after git checkout HEAD
-
+$git pull -s recursive -X theirs <remoterepo or other repo>
+$git fetch && git rebase <remote>/branch && git rebase --continue
 
 $editor path/to/file
 $git-add path/to/file
