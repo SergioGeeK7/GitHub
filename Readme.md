@@ -39,12 +39,12 @@ $git stash -> save without commit <br>
 $git stach pop -> restore <br>
 $git reset --soft HEAD^1 -> leave the changes made <br>
 $git reset HEAD file -> detach add <br>
-$git clean -f -d -n -> remove untracked files after git checkout HEAD
-$git pull -s recursive -X theirs <remoterepo or other repo>
-$git fetch && git rebase <remote>/branch && git rebase --continue
-$git push -d origin <branch_name>
-$git branch -d <branch_name>
-
+$git clean -f -d -n -> remove untracked files after git checkout HEAD  <br>
+$git pull -s recursive -X theirs <remoterepo or other repo>  <br> 
+$git fetch && git rebase <remote>/branch && git rebase --continue  <br>
+$git push -d origin <branch_name>  <br>
+$git branch -d <branch_name>  <br>
+ <br>
 $editor path/to/file
 $git-add path/to/file
 $git-commit -v --amend
