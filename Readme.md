@@ -42,6 +42,8 @@ $git reset HEAD file -> detach add <br>
 $git clean -f -d -n -> remove untracked files after git checkout HEAD
 $git pull -s recursive -X theirs <remoterepo or other repo>
 $git fetch && git rebase <remote>/branch && git rebase --continue
+$git push -d origin <branch_name>
+$git branch -d <branch_name>
 
 $editor path/to/file
 $git-add path/to/file
