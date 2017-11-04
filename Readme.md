@@ -45,6 +45,13 @@ $git fetch && git rebase <remote>/branch && git rebase --continue  <br>
 $git push -d origin <branch_name>  <br>
 $git branch -d <branch_name>  <br>
 $git reset filename.txt  <br> /undo add
+$git reset --soft // after you've shited allows you to go back one commit and re-commit <br> 
+$git reset --hard // [SHA 1]: goes back to a commit [SHA 1] and deletes files from working directory and staging <br>
+$git diff version1 version2 <br>
+$git log --oneline <br>
+
+ 
+ 
  <br>
 $editor path/to/file
 $git-add path/to/file
