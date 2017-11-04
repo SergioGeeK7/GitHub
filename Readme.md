@@ -44,6 +44,7 @@ $git pull -s recursive -X theirs <remoterepo or other repo>  <br>
 $git fetch && git rebase <remote>/branch && git rebase --continue  <br>
 $git push -d origin <branch_name>  <br>
 $git branch -d <branch_name>  <br>
+$git reset filename.txt  <br> /undo add
  <br>
 $editor path/to/file
 $git-add path/to/file
