@@ -51,11 +51,17 @@ $git diff version1 version2 <br>
 $git log --oneline <br>
 #### Merge feature branch to master
 git checkout master
+ 
 git pull --rebase origin master
+
 git checkout feature1
+
 git rebase master
+
 fix any conflicts
+
 git checkout master
+
 git rebase feature1 // will rebase with no conflicts since you fixed them previously.
  
  
