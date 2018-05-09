@@ -49,7 +49,14 @@ $git reset --soft // after you've shited allows you to go back one commit and re
 $git reset --hard // [SHA 1]: goes back to a commit [SHA 1] and deletes files from working directory and staging <br>
 $git diff version1 version2 <br>
 $git log --oneline <br>
-
+#### Merge feature branch to master
+git checkout master
+git pull --rebase origin master
+git checkout feature1
+git rebase master
+fix any conflicts
+git checkout master
+git rebase feature1 // will rebase with no conflicts since you fixed them previously.
  
  
  <br>
