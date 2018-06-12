@@ -69,7 +69,9 @@ git rebase feature1 // will rebase with no conflicts since you fixed them previo
 $editor path/to/file
 $git-add path/to/file
 $git-commit -v --amend
+ <br />
 
+git diff -r d930b7b44339b003931e1eae5adaad6dccd754ab
 
 
  <br />
