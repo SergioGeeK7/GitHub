@@ -72,7 +72,8 @@ $git-commit -v --amend
  <br />
 
 git diff -r d930b7b44339b003931e1eae5adaad6dccd754ab
-
+<br/>
+git reset --hard c86e238f8ae199be2a26588067d86deacae4d1c1
 
  <br />
 $ http://codehero.co/git-desde-cero-manejo-de-ramas-remotas/  ->  7
