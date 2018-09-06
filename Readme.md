@@ -65,11 +65,32 @@ git checkout master
 git rebase feature1 // will rebase with no conflicts since you fixed them previously.
 
 ----- undo your commit 
-git reset --hard HEAD~1 // remove changes
-git reset HEAD~1 // keep changes
+git reset HEAD~2        # undo last two commits, keep changes
+git reset --hard HEAD~2 # undo last two commits, discard changes  
+
+git commit --amend                  # start $EDITOR to edit the message
+git commit --amend -m "New message" # set the new message directly
+#or
+git add forgotten_file 
+git commit --amend
+
+git rebase --interactive origin branch # edit lots of commits name, change `pick` for `reword` or `r`
+ git revert c761f5c              # reverts the commit with the specified id
+ git revert HEAD^                # reverts the second to last commit
+ git revert develop~4..develop~2 # reverts a whole range of commits
+ 
+ man githooks
+ https://help.github.com/articles/remove-sensitive-data/
+ git config --global rerere.enabled true
+
 git reset --soft HEAD~1 // keep changes in index
 git cherry-pick <commit-hash> // merge just one commit, not branch
  
+ 
+ remove sensitive data
+ `git filter-branch --force --index-filter \
+  'git rm --cached --ignore-unmatch secrets.txt' \
+  --prune-empty --tag-name-filter cat -- --all`
  -----
  
  git reset filename          # or
