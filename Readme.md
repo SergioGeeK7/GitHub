@@ -63,7 +63,22 @@ fix any conflicts
 git checkout master
 
 git rebase feature1 // will rebase with no conflicts since you fixed them previously.
+
+----- undo your commit 
+git reset --hard HEAD~1 // remove changes
+git reset HEAD~1 // keep changes
+git reset --soft HEAD~1 // keep changes in index
+git cherry-pick <commit-hash> // merge just one commit, not branch
  
+ -----
+ 
+ git reset filename          # or
+ echo filename >> .gitingore # add it to .gitignore to avoid re-adding it
+ 
+The working tree/working directory/workspace is the directory tree of (source) files that you see and edit.
+The index/staging area is a single, large, binary file in /.git/index, which lists all files in the current branch, their sha1 checksums, time stamps and the file name - it is not another directory with a copy of files in it.
+HEAD is a reference to the last commit in the currently checked-out branch.
+
  
  <br>
 $editor path/to/file
