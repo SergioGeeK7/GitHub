@@ -113,3 +113,15 @@ git reset --hard c86e238f8ae199be2a26588067d86deacae4d1c1
 
  <br />
 $ http://codehero.co/git-desde-cero-manejo-de-ramas-remotas/  ->  7
+<br/>
+--------
+git rebase -I commitNumber .....
+--- merge one commit 
+git checkout master
+git merge --squash branchName
+git commit
+---
+git reset --hard commitNumber --> return to a specific commit
+git revert commitNumber
+--
+HEAD -- means where you're pointing
