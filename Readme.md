@@ -116,12 +116,18 @@ $ http://codehero.co/git-desde-cero-manejo-de-ramas-remotas/  ->  7
 <br/>
 --------
 git rebase -I commitNumber .....
---- merge one commit 
+
+### merge one commit 
+
 git checkout master
+
 git merge --squash branchName
+
 git commit
----
-git reset --hard commitNumber --> return to a specific commit
+
+git reset --hard commitNumber --> **return to a specific commit**
+
 git revert commitNumber
---
+
+
 HEAD -- means where you're pointing
